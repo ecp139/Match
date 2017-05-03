@@ -1,0 +1,24 @@
+@keyframes grow-animation {
+  0% {transform: scale(1);}
+  100% {transform: scale(3);}
+}
+
+
+.grow
+{
+  height: 100px;
+  width: 100px;
+  margin:121px 121px;
+  animation-name: grow-animation;
+  animation-duration: 3s;
+  animation-iteration-count: 3;
+  animation-delay: 1s;
+}
+
+.shrink
+{
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+    transition:all 1s ease;
+}
